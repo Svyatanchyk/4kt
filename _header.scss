@@ -1,0 +1,35 @@
+.header {
+   background-color: honeydew;
+}
+
+.header-logo {
+   width: 50px;
+   height: 50px;
+}
+
+.header__button {
+   background-color: #01e4149c;
+   border-color: rgba(1, 207, 18, 0.548);
+   border-radius: 100px;
+
+   &:hover,
+   &:active,
+   &:focus {
+      background-color: #15ff00b9;
+      border-color: rgba(1, 207, 18, 0.87);
+   }
+
+}
+
+@media (max-width: 768px) {
+   .text123 {
+      font-size: 20px !important;
+   }
+
+   .obertka2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+   }
+}

@@ -1,0 +1,77 @@
+body {
+   background-color: honeydew;
+}
+
+.background-content {
+   background: url('/img/hero-content.svg') no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.content-title {
+   font-family: Gotham Pro;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 160%;
+   /* or 64px */
+
+   letter-spacing: 0.08em;
+   text-transform: uppercase;
+}
+
+.button-border {
+   border-radius: 100px;
+   font-family: Gotham Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 160%;
+}
+
+.subtitle-list__item {
+   font-family: Gotham Pro;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 26px;
+   line-height: 160%;
+   letter-spacing: 0.02em;
+   list-style: none;
+}
+
+.poloska {
+   width: 300px;
+}
+
+.text-title,
+.text-title2 {
+   font-family: Gotham Pro;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 160%;
+}
+
+.text-title2 {
+   color: green;
+}
+
+.container2 {
+   max-width: 800px;
+}
+
+.map {
+   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+   .background-content {
+      background: url('/img/norm.svg');
+   }
+}
+
+@media (max-width: 375px) {
+   .obertka {
+      text-align: center;
+   }
+}
